@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* Align items and justify content vertically */
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgba(250, 117, 29, 0.904);
+  background-size: cover;
+  background-position: center;
+  /* Light blue background color */
+}
+
+.container {
+  text-align: center;
+  max-width: 50px;
+  /* Adjusted for better readability */
+  padding: 20px;
+  background-color: #fff;
+  /* White background color */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  /* Light shadow effect */
+  border-radius: 10px;
+  /* Rounded corners */
+  margin-top: 20px;
+  /* Add margin between header and container */
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  max-width: 300px;
+  margin: 0 auto;
+  /* Set margin to auto to center the user list */
+}
+
+.user-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  /* Light gray border */
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  /* Lighter gray background color */
+  transition: background-color 0.3s ease;
+  /* Smooth hover transition */
+}
+
+.user-list li:hover {
+  background-color: #5c5c5c;
+  /* Slightly darker gray on hover */
+}
+
+.post-info {
+  margin-top: 20px;
+}
+
+.post {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+header {
+  margin-top: 0;
+  /* Dark background color for the header */
+  color: #241f1f;
+  /* White text color */
+  padding: 10px;
+  border-radius: 5px;
+}
